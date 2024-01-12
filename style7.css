@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+	font-family: Kanit,Sans-serif;
+  background-image: url(img6.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.form{
+	height: 1100px;
+	width: 600px;
+	margin: auto;
+}
+
+.title-div{
+	height: 170px;
+	width: 600px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+	margin: 15px;
+	border-radius: 8px;
+	padding: 25px;
+}
+.humms1-div, .humms2-div, .humms3-div, .humms4-div {
+	height: 150px;
+	width: 650px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+	margin: 15px;
+	border-radius: 8px;
+}
+.name{
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	font-size: 15px;
+}
+.input-div{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+.input-div input{
+	width: 300px;
+	border: 0;
+	outline: 0;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 5px;
+	font-size: 15px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+  }
+  
+.navbar a {
+    position: relative;
+    font-size: 20px;
+    color: #1d1c1c;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+  } 
+  
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .4s;
+  }
+  
+  .navbar a:hover::before {
+    width: 100%;
+  }
+
+
+  .btn {
+    border-style: solid;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 390px;
+    right: 120px;
+  }
+  
+  .button {
+    align-items: center;
+    justify-content: center;
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 250px;
+  }
+  
+  .button-start {
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+
+  .button-start:hover {
+    color: orange;
+  }
